@@ -34,3 +34,15 @@ a {
   display: inline-block;
   text-decoration: none;
 }
+
+.big-container {
+  max-width: 2000px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
