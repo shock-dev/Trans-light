@@ -1,0 +1,131 @@
+.news {
+  padding-top: 108px;
+
+  &__title {
+    margin-bottom: 0;
+  }
+
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+
+    &-link {
+      padding: 15px 34px;
+      background-color: $accent-color;
+      color: $white-color;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: 0.05em;
+    }
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    flex-basis: 255px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &-title {
+      font-family: 'Oswald', sans-serif;
+      font-size: 18px;
+      line-height: 27px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    &-desc {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 19px;
+    }
+
+    &-footer {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &-footer__img {
+      width: 128px;
+      height: 115px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    &-footer__date {
+      align-self: flex-end;
+      font-weight: 600;
+      font-size: 14px;
+      color: #979797;
+    }
+  }
+
+  .latest {
+    display: flex !important;
+    flex-basis: 540px;
+
+    &__img {
+      width: 255px;
+      height: 242px;
+      margin-right: 30px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    &__info {
+      max-width: 255px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      &-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      &-head__title {
+        font-family: 'Oswald', sans-serif;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+
+      &-head__date {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        color: #979797;
+      }
+
+      &-body {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 19px;
+      }
+
+      &-link {
+        font-size: 14px;
+        line-height: 19px;
+        text-decoration: underline;
+      }
+    }
+  }
+}
