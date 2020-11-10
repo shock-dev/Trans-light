@@ -1,0 +1,66 @@
+.footer {
+  background-color: $accent-color;
+  color: $white-color;
+
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 36px 0 25px;
+    border-bottom: 1px solid #FFFFFF;
+
+    &-phone {
+      font-family: 'Oswald', sans-serif;
+      font-size: 18px;
+      letter-spacing: 0.05em;
+    }
+
+    &-address {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 19px;
+    }
+
+    &-mail {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 19px;
+    }
+  }
+
+  &__body {
+    padding: 25px 0 15px;
+    border-bottom: 1px solid #FFFFFF;
+  }
+
+  &__body-list {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+  }
+
+  &__body-item {
+    flex-basis: 33%;
+  }
+
+  &__body-link {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 10px;
+  }
+
+  &__bottom {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-copy,
+    &-author {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 19px;
+    }
+  }
+}
