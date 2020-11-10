@@ -43,5 +43,18 @@
     }
   }
 
+  .slick-arrow {
+    position: absolute;
+    right: 0;
+    top: -110px;
+    width: 55px;
+    height: 55px;
+    border: 2px solid #005BC1;
+    z-index: 10;
+  }
+
+  .slick-prev {
+    right: 53px;
+  }
 
 }

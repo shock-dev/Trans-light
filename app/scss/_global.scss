@@ -77,5 +77,10 @@ img {
 }
 
 .slick-arrow {
-
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  border: 2px solid #005BC1;
+  z-index: 10;
 }
+
