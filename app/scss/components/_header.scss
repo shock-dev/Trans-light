@@ -1,6 +1,10 @@
 .header {
   background-color: rgba($accent-color, .6);
   color: $white-color;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 
   &__inner {
     position: relative;
