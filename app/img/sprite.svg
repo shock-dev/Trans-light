@@ -1,0 +1,19 @@
+<svg display="none" xmlns="http://www.w3.org/2000/svg">
+
+    <symbol id="left-arrow">
+        <g>
+            <line x1="1.1024" y1="10.1977" x2="10.0072" y2="1.29292" stroke="#005BC1" stroke-width="2"/>
+            <line y1="-1" x2="12.5932" y2="-1" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 9.90475 19)"
+                  stroke="#005BC1" stroke-width="2"/>
+        </g>
+    </symbol>
+
+    <symbol id="right-arrow">
+        <g>
+            <line y1="-1" x2="12.5932" y2="-1" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 9.90485 10.9048)"
+                  stroke="#005BC1" stroke-width="2"/>
+            <line x1="1.10246" y1="18.2929" x2="10.0072" y2="9.38813" stroke="#005BC1" stroke-width="2"/>
+        </g>
+    </symbol>
+
+</svg>

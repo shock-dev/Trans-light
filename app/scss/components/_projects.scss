@@ -1,0 +1,47 @@
+.projects {
+
+
+  &-slider {
+
+
+    &__item {
+      max-width: 540px;
+      min-height: 400px;
+      position: relative;
+
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+    }
+
+    &__item-info {
+      background-color: $white-color;
+      position: absolute;
+      width: 250px;
+      right: 35px;
+      bottom: 35px;
+      padding: 20px 25px;
+    }
+
+    &__item-info__title {
+      font-family: 'Oswald', sans-serif;
+      font-size: 18px;
+      line-height: 1;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+
+    &__item-info__description {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 19px;
+    }
+  }
+
+
+}

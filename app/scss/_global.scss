@@ -27,12 +27,24 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
+  color: $black-color;
 }
 
 a {
   color: inherit;
   display: inline-block;
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .big-container {
@@ -45,4 +57,25 @@ a {
   max-width: 1140px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.page-section {
+  padding-top: 150px;
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  padding-left: 140px;
+  font-size: 30px;
+  line-height: 44px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background-image: url('../img/lines-title.svg');
+  background-repeat: no-repeat;
+  background-position: left center;
+  margin-bottom: 70px;
+}
+
+.slick-arrow {
+
 }
