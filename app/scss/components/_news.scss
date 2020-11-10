@@ -21,6 +21,13 @@
       font-size: 16px;
       line-height: 22px;
       letter-spacing: 0.05em;
+      border: 2px solid $accent-color;
+      transition: all .3s;
+
+      &:hover {
+        background: $white-color;
+        color: $accent-color;
+      }
     }
   }
 
