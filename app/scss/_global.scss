@@ -82,6 +82,21 @@ img {
   height: 55px;
   border: 2px solid #005BC1;
   z-index: 10;
+  transition: background-color .3s;
+  outline: none;
+
+  svg {
+    stroke: $accent-color;
+    transition: stroke .3s;
+  }
+
+  &:hover {
+    background-color: $accent-color;
+
+    svg {
+      stroke: $white-color;
+    }
+  }
 }
 
 .tabs-content {
