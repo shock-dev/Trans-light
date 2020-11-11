@@ -45,5 +45,9 @@ $(function(){
         $($(this).attr('href')).addClass('active')
     })
 
+    $('.burger').on('click', function () {
+        $('.mobile-menu').addClass('active')
+    })
+
 
 });
