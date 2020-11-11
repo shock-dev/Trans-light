@@ -160,6 +160,7 @@ img {
 .mobile-menu__list {
   display: flex;
   flex-direction: column;
+  padding-right: 20px;
 }
 
 .mobile-menu__item:not(:last-child) {
@@ -171,4 +172,22 @@ img {
   padding: 20px 20px;
   font-size: 24px;
   color: $accent-color;
+}
+
+.overlay {
+  position: fixed;
+  z-index: 19;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba($black-color, .7);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .3s;
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+  }
 }

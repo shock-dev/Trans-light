@@ -46,7 +46,13 @@ $(function(){
     })
 
     $('.burger').on('click', function () {
+        $('.overlay').addClass('active')
         $('.mobile-menu').addClass('active')
+    })
+
+    $('.overlay').on('click', function () {
+        $('.overlay').removeClass('active')
+        $('.mobile-menu').removeClass('active')
     })
 
 
