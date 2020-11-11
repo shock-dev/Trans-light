@@ -126,14 +126,20 @@
 
 }
 
+@media (max-width: 768px) {
+  .header__menu {
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+}
 
 @media (max-width: 720px) {
   .hero__inner {
     padding-left: 0;
-  }
-
-  .header__menu {
-    display: none;
   }
 
   .hero__inner:after {
