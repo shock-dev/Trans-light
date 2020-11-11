@@ -89,6 +89,7 @@
   .hero__inner {
     padding-left: 50px;
   }
+
 }
 
 @media (max-width: 720px) {
@@ -123,6 +124,10 @@
 
   .news__head-link {
     display: none;
+  }
+
+  .news__link {
+    display: block;
   }
 }
 

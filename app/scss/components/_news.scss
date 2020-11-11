@@ -31,6 +31,30 @@
     }
   }
 
+  &__link {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+
+    a {
+      padding: 15px 34px;
+      background-color: $accent-color;
+      color: $white-color;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: 0.05em;
+      border: 2px solid $accent-color;
+      transition: all .3s;
+
+      &:hover {
+        background: $white-color;
+        color: $accent-color;
+      }
+    }
+  }
+
   &__items {
     display: flex;
     justify-content: space-between;
