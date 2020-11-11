@@ -93,6 +93,12 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .title {
+    font-size: 22px;
+    line-height: 30px;
+    padding-left: 120px;
+  }
 }
 
 @media (max-width: 675px) {
