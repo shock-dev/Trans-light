@@ -99,7 +99,33 @@
     margin: 20px 0;
   }
 
+  .page-section,
+  .news {
+    padding-top: 50px;
+  }
+
+  .catalog {
+    padding-top: 80px;
+  }
+
+  .news {
+    margin-bottom: 50px;
+  }
+
+  .news__head {
+    margin-bottom: 40px;
+  }
+
+  .title {
+    margin-bottom: 40px;
+  }
+
+  .news__title {
+    margin-bottom: 0;
+  }
+
 }
+
 
 @media (max-width: 720px) {
   .hero__inner {
@@ -196,6 +222,11 @@
 
   .news__item-desc {
     margin-bottom: 10px;
+  }
+
+  .news__item-footer__img {
+    width: 50%;
+    height: auto;
   }
 }
 
