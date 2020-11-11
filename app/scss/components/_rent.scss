@@ -18,8 +18,9 @@
   }
 
   &__box {
-    width: 665px;
-    height: 394px;
+    max-width: 665px;
+    width: 100%;
+    height: auto;
     border: 3px solid #005BC1;
     padding: 42px 30px 30px;
   }
@@ -41,7 +42,8 @@
     }
 
     &__item-img {
-      width: 255px;
+      max-width: 255px;
+      width: 100%;
       margin-right: 30px;
     }
 
@@ -86,5 +88,12 @@
     .slick-prev {
       right: 53px;
     }
+  }
+
+  .slick-dots {
+    bottom: -40px;
+    left: 0;
+    right: 0;
+
   }
 }

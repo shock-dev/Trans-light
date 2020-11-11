@@ -58,29 +58,9 @@
   }
 
   .slick-dots {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    top: 15px;
+    bottom: -30px;
     left: 0;
     right: 0;
-
-    li {
-      margin: 0 8px;
-    }
-
-    li.slick-active button {
-      background-color: $accent-color;
-    }
-
-    button {
-      border-radius: 50%;
-      width: 15px;
-      height: 15px;
-      background-color: $white-color;
-      font-size: 0;
-      border: none;
-    }
 
   }
 

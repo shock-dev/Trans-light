@@ -107,3 +107,27 @@ img {
   }
 }
 
+.slick-dots {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+
+  li {
+    margin: 0 8px;
+  }
+
+  li.slick-active button {
+    background-color: $accent-color;
+  }
+
+  button {
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: $white-color;
+    border: 2px solid $accent-color;
+    font-size: 0;
+  }
+
+}
+

@@ -23,7 +23,16 @@ $(function(){
     $('.rent-slider').slick({
         fade: true,
         prevArrow: '<button type="button" class="btn-reset slick-arrow slick-prev"><svg width="12" height="19"><use href="img/sprite.svg#left-arrow"></use></svg></button>',
-        nextArrow: '<button type="button" class="btn-reset slick-arrow slick-next"><svg width="12" height="19"><use href="img/sprite.svg#right-arrow"></use></svg></button>'
+        nextArrow: '<button type="button" class="btn-reset slick-arrow slick-next"><svg width="12" height="19"><use href="img/sprite.svg#right-arrow"></use></svg></button>',
+        responsive: [
+            {
+                breakpoint: 675,
+                settings: {
+                    arrows: false,
+                    dots: true
+                }
+            }
+        ]
     })
 
     $('.tab').on('click', function (e) {
